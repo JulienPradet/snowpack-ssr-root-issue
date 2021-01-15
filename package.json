@@ -1,0 +1,9 @@
+{
+  "name": "snowpack-start-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "snowpack": "^3.0.10"
+  }
+}
