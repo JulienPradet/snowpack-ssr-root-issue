@@ -5,6 +5,9 @@ const run = async () => {
   const snowpackConfig = await loadConfiguration(
     {
       root: join(__dirname, "../client"),
+      mount: {
+        src: "/",
+      },
     },
     join(__dirname, "./snowpack.config.json")
   );
